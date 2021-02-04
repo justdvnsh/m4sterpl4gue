@@ -1,3 +1,9 @@
+#!/bin/bash
+
 echo "Welcome !!"
 echo "----------"
 echo "m4sterpl4gue"
+
+source ./check_if_programs_installed.sh
+
+check_for_programs
