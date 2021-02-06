@@ -44,7 +44,7 @@ check_for_programs() {
   for modules in ${GOLANG_MODULES_TO_INSTALL[*]}
     do
       echo "[+] Installing -> ${modules}"
-      sudo -E go get -u ${modules}
+      #sudo -E go get -u ${modules}
       echo "[+] Installed -> ${modules}"
   done
 }
