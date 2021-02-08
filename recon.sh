@@ -1,6 +1,7 @@
 #!/bin/bash
 
-recon() {
+reconData() {
+ 
   echo "[+] Starting the recon. Finding subdomains for you..."
   echo -n "[+] Please enter a domain to find -> "
   echo "[+] Starting sublist3r for $DOMAIN"
@@ -18,4 +19,5 @@ recon() {
   echo "[+] Now finding some intel regarding the target."
   amass intel -d $DOMAIN -o ./$DOMAIN/intel.txt
   echo "[+] Found some intel regarding the target ."
+
 }
